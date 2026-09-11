@@ -31,6 +31,12 @@ export interface ReformaFuente {
   articulosVigentesMencionados?: (number | string)[];
 }
 
+export interface ReformaAclaracionRevision {
+  diferencia: string;
+  criterio: string;
+  fundamento: string;
+}
+
 export interface ReformaCambio {
   id: string;
   titulo: string;
@@ -40,6 +46,7 @@ export interface ReformaCambio {
   queBuscaElClub: ReformaObjetivo;
   detalles: string[];
   notasRevision: string[];
+  aclaracionRevision?: ReformaAclaracionRevision;
   fuentes: ReformaFuente[];
   estadoRevision: string;
   requiereRevisionHumanaAntesDePublicar: boolean;
@@ -90,9 +97,10 @@ export interface ChangeItem {
   currentStatute: string;
   proposal: string;
   whatChanges: string;
-  clubGoal: string;
+  clubGoal: string | null;
   details: string[];
   reviewNotes: string[];
+  reviewClarification?: ReformaAclaracionRevision;
   sources: ReformaFuente[];
   estadoRevision: string;
   requiresHumanReview: boolean;

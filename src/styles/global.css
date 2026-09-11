@@ -10,8 +10,8 @@
 
 :root {
   /* Brand */
-  --brand: #6CACE4;
-  --brand-dark: #6CACE4;
+  --brand: #64B2E5;
+  --brand-dark: #64B2E5;
 
   /* Surfaces */
   --bg: #F5F8FC;
@@ -23,12 +23,12 @@
   /* Semantic — light */
   --surface-elevated: #FFFFFF;
   --surface-muted: #F1F5F9;
-  --text-on-brand: #142235;
-  --focus-ring: #6CACE4;
+  --text-on-brand: #111b28;
+  --focus-ring: #64B2E5;
   --disabled-bg: #E2E8F0;
   --disabled-text: #94A3B8;
   --selection-bg: rgba(108, 172, 228, 0.3);
-  --selection-text: #142235;
+  --selection-text: #0d141e;
 
   /* Comparison cards */
   --comparison-vigente-bg: #FFFFFF;
@@ -94,8 +94,8 @@
   --border: #2D3B50;
 
   /* Semantic — dark */
-  --surface-elevated: #1E2D42;
-  --surface-muted: #162032;
+  --surface-elevated: #373a3f;
+  --surface-muted: #25282f;
   --text-on-brand: #FFFFFF;
   --focus-ring: #6CACE4;
   --disabled-bg: #2D3B50;
@@ -129,7 +129,7 @@
   --card-hover-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
 
   /* Scrollbar */
-  --scrollbar-thumb: #2D3B50;
+  --scrollbar-thumb: #323d4d;
   --scrollbar-thumb-hover: #94A3B8;
 }
 
@@ -162,7 +162,7 @@ body {
 
 ::selection {
   background: var(--selection-bg);
-  color: var(--selection-text);
+  color: var(--selection-text); 
 }
 
 /* ── Focus ───────────────────────────────────────────────────── */

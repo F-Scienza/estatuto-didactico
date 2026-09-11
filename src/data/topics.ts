@@ -35,7 +35,6 @@ function formatSources(sources: ReformaCambio["fuentes"]): string {
 
 function changeFromJson(c: ReformaCambio): ChangeItem {
   const vigente = c.estatutoVigente.resumen ?? NULL_ABSENT;
-  const objetivo = c.queBuscaElClub.texto ?? NULL_ABSENT;
   return {
     id: c.id,
     subtitle: c.titulo,
@@ -43,9 +42,10 @@ function changeFromJson(c: ReformaCambio): ChangeItem {
     currentStatute: vigente,
     proposal: c.propuesta.resumen,
     whatChanges: c.queCambia.texto,
-    clubGoal: objetivo,
+    clubGoal: c.queBuscaElClub.texto,
     details: c.detalles,
     reviewNotes: c.notasRevision,
+    reviewClarification: c.aclaracionRevision,
     sources: c.fuentes,
     estadoRevision: c.estadoRevision,
     requiresHumanReview: c.requiereRevisionHumanaAntesDePublicar,

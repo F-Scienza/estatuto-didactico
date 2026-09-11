@@ -34,7 +34,7 @@ function formatSource(f: ReformaFuente): string {
 function ReviewBadge({ estado }: { estado: string }) {
   const labels: Record<string, string> = {
     cotejado_con_documentos_aportados: "Cotejado con documentos aportados",
-    requiere_aclaracion: "Requiere aclaración",
+    requiere_aclaracion: "Diferencia documentada",
   };
   return (
     <span className={`detail__review-badge detail__review-badge--${estado}`}>
@@ -160,7 +160,7 @@ export function ChangeDetailView({
             onClick={onToggleDoubt}
           >
             <span className="detail__doubt-icon" aria-hidden="true">?</span>
-            {hasDoubt ? "Duda registrada" : "Tengo dudas"}
+            {hasDoubt ? "Duda registrada" : "Marcar como duda"}
           </button>
           <button className="detail__share" type="button" onClick={handleShare}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -192,10 +192,12 @@ export function ChangeDetailView({
         </div>
 
         {/* Qué busca el club */}
-        <div className="detail__section">
-          <h4 className="detail__section-label">{integration.etiquetaObjetivo}</h4>
-          <p className="detail__section-value">{change.clubGoal}</p>
-        </div>
+        {change.clubGoal && (
+          <div className="detail__section">
+            <h4 className="detail__section-label">{integration.etiquetaObjetivo}</h4>
+            <p className="detail__section-value">{change.clubGoal}</p>
+          </div>
+        )}
 
         {/* Detalles */}
         {hasDetails && (
@@ -210,7 +212,7 @@ export function ChangeDetailView({
         )}
 
         {/* Notas de revisión */}
-        {hasReviewNotes && (
+        {hasReviewNotes && !change.reviewClarification && (
           <div className="detail__section detail__review-section">
             <h4 className="detail__section-label">Notas de revisión</h4>
             <div className="detail__review-box">

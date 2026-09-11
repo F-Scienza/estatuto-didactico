@@ -767,6 +767,11 @@
       "notasRevision": [
         "Confirmar la lectura conjunta de los arts. 19 y 88 antes de usar esta ficha como verificador personalizado de elegibilidad electoral."
       ],
+      "aclaracionRevision": {
+        "diferencia": "El artículo 19 incorpora a las personas asociadas desde los 16 años, mientras que el artículo 88 remite a las categorías habilitadas sin repetir todos sus requisitos.",
+        "criterio": "La ficha informa que el derecho a votar comienza a los 16 años. No funciona como verificador individual de elegibilidad.",
+        "fundamento": "Se aplica la lectura conjunta de los artículos 19 y 88 del proyecto."
+      },
       "fuentes": [
         {
           "documentoId": "proyecto",
@@ -825,6 +830,11 @@
       "notasRevision": [
         "El anexo dice que se extiende el plazo: esa expresión puede confundir. El vencimiento pasa de 8 a 15 días antes de la elección."
       ],
+      "aclaracionRevision": {
+        "diferencia": "El anexo habla de una extensión, aunque el límite pasa de ocho a quince días antes de la elección.",
+        "criterio": "La ficha indica que las cuotas deben regularizarse hasta quince días corridos antes de los comicios.",
+        "fundamento": "Es el plazo establecido expresamente por el artículo 88 del proyecto. En la práctica, la fecha límite se adelanta siete días."
+      },
       "fuentes": [
         {
           "documentoId": "proyecto",
@@ -980,6 +990,11 @@
       "notasRevision": [
         "El anexo simplifica el horario de la segunda convocatoria como quince minutos después. Conservar la secuencia completa del art. 33."
       ],
+      "aclaracionRevision": {
+        "diferencia": "El anexo resume la segunda convocatoria como quince minutos después, pero omite la tolerancia previa prevista para la primera.",
+        "criterio": "La ficha conserva la secuencia completa: quince minutos de tolerancia y, vencido ese lapso, otros quince minutos hasta la segunda convocatoria.",
+        "fundamento": "Se sigue la secuencia literal del artículo 33 del proyecto."
+      },
       "fuentes": [
         {
           "documentoId": "proyecto",
@@ -1186,6 +1201,11 @@
       "notasRevision": [
         "El anexo agrupa presentación y oficialización bajo un mismo título. No convertir sus plazos en una única fecha."
       ],
+      "aclaracionRevision": {
+        "diferencia": "El anexo agrupa la presentación de listas y su oficialización, aunque son etapas distintas y tienen plazos diferentes.",
+        "criterio": "La ficha distingue ambos pasos: la lista se presenta al menos quince días antes y luego la autoridad electoral controla sus requisitos y resuelve su oficialización.",
+        "fundamento": "Los artículos 92 y 93 regulan la presentación; el artículo 90 regula actuaciones vinculadas con la oficialización dentro de los doce días anteriores y prevé una resolución en 48 horas."
+      },
       "fuentes": [
         {
           "documentoId": "proyecto",
@@ -1351,6 +1371,11 @@
       "notasRevision": [
         "Inconsistencia interna: diecinueve titulares en art. 44 frente a veinte cargos enumerados en art. 45. No elegir arbitrariamente un total ni presentar una infografía cerrada hasta aclararlo."
       ],
+      "aclaracionRevision": {
+        "diferencia": "El artículo 44 declara diecinueve integrantes titulares, pero la enumeración de cargos del artículo 45 suma veinte.",
+        "criterio": "La ficha toma como total diecinueve titulares y mantiene visible la inconsistencia de la enumeración.",
+        "fundamento": "Se prioriza la cantidad expresamente declarada en el artículo 44, sin ocultar que el artículo 45 necesita una corrección o aclaración."
+      },
       "fuentes": [
         {
           "documentoId": "proyecto",
@@ -1461,6 +1486,11 @@
       "notasRevision": [
         "El anexo no desarrolla el reinicio del cómputo del art. 110. Esta condición debe mostrarse junto con el límite de reelección, no escondida en fuentes."
       ],
+      "aclaracionRevision": {
+        "diferencia": "El anexo informa el límite de reelección, pero no explica desde qué mandato comienza a contarse bajo el nuevo estatuto.",
+        "criterio": "La ficha aclara que el primer mandato computable sería el iniciado por la Directiva elegida en los primeros comicios realizados bajo el nuevo estatuto.",
+        "fundamento": "El artículo 110 no computa los mandatos anteriores para aplicar el límite del artículo 47."
+      },
       "fuentes": [
         {
           "documentoId": "proyecto",
@@ -1568,6 +1598,11 @@
       "notasRevision": [
         "Confirmar la redacción de edades del art. 36 b antes de convertirlas en un cálculo de elegibilidad. El anexo además habla de antigüedad como mayor, mientras el art. 36 a dice como persona asociada o vitalicia."
       ],
+      "aclaracionRevision": {
+        "diferencia": "La redacción del artículo 36 combina expresiones sobre edades mínimas que pueden resultar ambiguas. El anexo también resume la antigüedad de una forma distinta al articulado.",
+        "criterio": "La ficha informa 21 años para cargos generales, 25 para presidencia y vicepresidencias, y cinco años como persona asociada o condición vitalicia. No realiza cálculos personalizados de elegibilidad.",
+        "fundamento": "Se resume el artículo 36 del proyecto y se evita inferir casos límite que el texto no expresa con suficiente claridad."
+      },
       "fuentes": [
         {
           "documentoId": "proyecto",
@@ -2076,6 +2111,11 @@
       "notasRevision": [
         "El anexo informa 25% en la columna de propuesta para estos contratos, pero el art. 28 f del proyecto dice 30%. Mostrar la diferencia; esta ficha resume el proyecto."
       ],
+      "aclaracionRevision": {
+        "diferencia": "El anexo comparativo informa un límite del 25 %, mientras que el artículo 28 inciso f del proyecto establece 30 %.",
+        "criterio": "La ficha muestra 30 % y deja visible la diferencia con el anexo.",
+        "fundamento": "Se prioriza el articulado del proyecto porque es el texto normativo propuesto para aprobación."
+      },
       "fuentes": [
         {
           "documentoId": "proyecto",
@@ -2405,6 +2445,11 @@
       "notasRevision": [
         "El anexo dice SIN efecto suspensivo; el art. 79 no contiene esa expresión. Además, el objetivo del anexo presenta la apelación como control nuevo, aunque su propia columna de vigente ya reconoce apelación."
       ],
+      "aclaracionRevision": {
+        "diferencia": "El anexo afirma que la apelación es sin efecto suspensivo, pero el artículo 79 del proyecto no lo indica. Además, el anexo presenta la apelación como nueva aunque reconoce que ya existe en el régimen vigente.",
+        "criterio": "La ficha informa que la exclusión puede apelarse dentro de diez días y no afirma que la apelación suspenda o deje de suspender la sanción.",
+        "fundamento": "Se comunica únicamente lo expresado por el artículo 79 y se evita completar por interpretación una consecuencia que el proyecto no especifica."
+      },
       "fuentes": [
         {
           "documentoId": "proyecto",
