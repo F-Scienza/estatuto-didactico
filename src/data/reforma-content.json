@@ -1,0 +1,2890 @@
+{
+  "schemaVersion": "1.0.0",
+  "integracion": {
+    "etiquetaVigente": "Estatuto vigente, según el anexo",
+    "etiquetaPropuesta": "Propuesta de reforma",
+    "etiquetaObjetivo": "Qué busca el club, según el anexo",
+    "nullSignifica": "No hay una comparación u objetivo suficientemente documentado: mostrar una explicación breve, no inventar ni convertir en ausencia de regulación.",
+    "notasRevisionVisibles": true,
+    "mantenerCondicionesJuntoAlResumen": true,
+    "fuentesEnCadaFicha": true,
+    "paginas": "Numeración física del PDF, desde 1. Las referencias a artículos de propuesta se cotejaron con el proyecto, no se copiaron de la numeración del anexo.",
+    "textoExtraido": "Solo para consulta y búsqueda; puede tener espacios o acentos defectuosos y tablas desordenadas. Para citas literales o interpretación, revisar el PDF.",
+    "urls": "urlPublica es null: incorporar los PDF al proyecto o resolver sus enlaces antes de habilitar botones; no publicar rutas del equipo.",
+    "mostrarComoCambioConfirmado": "No convertir una ficha con vigente null en novedad confirmada. No ocultar notas de discrepancia."
+  },
+  "temas": [
+    {
+      "id": "mi-vida-como-socio",
+      "titulo": "Mi vida como socio",
+      "descripcion": "Categorías, derechos y vínculo con el club.",
+      "orden": 1,
+      "subtemas": [
+        {
+          "id": "categorias",
+          "titulo": "Categorías de socios",
+          "cambios": [
+            "categorias-socios",
+            "terminologia",
+            "honorarios"
+          ]
+        },
+        {
+          "id": "vitalicios",
+          "titulo": "Acceso a la categoría vitalicia",
+          "cambios": [
+            "vitalicia-requisitos"
+          ]
+        },
+        {
+          "id": "derechos",
+          "titulo": "Derechos y obligaciones",
+          "cambios": [
+            "derechos-generales",
+            "obligaciones-carnet",
+            "cuotas-aranceles"
+          ]
+        },
+        {
+          "id": "bajas",
+          "titulo": "Bajas y reincorporaciones",
+          "cambios": [
+            "baja-socio",
+            "reincorporacion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mi-voto-y-participacion",
+      "titulo": "Mi voto y participación",
+      "descripcion": "Elecciones, asambleas y formas de participar.",
+      "orden": 2,
+      "subtemas": [
+        {
+          "id": "voto",
+          "titulo": "Requisitos para votar",
+          "cambios": [
+            "edad-voto",
+            "cuotas-elecciones"
+          ]
+        },
+        {
+          "id": "asambleas",
+          "titulo": "Participación en asambleas",
+          "cambios": [
+            "asamblea-ordinaria",
+            "convocatoria-asamblea",
+            "quorum-asamblea",
+            "reforma-estatuto"
+          ]
+        },
+        {
+          "id": "distancia",
+          "titulo": "Participación a distancia",
+          "cambios": [
+            "asamblea-distancia",
+            "voto-distancia"
+          ]
+        },
+        {
+          "id": "listas",
+          "titulo": "Presentación de listas y proceso electoral",
+          "cambios": [
+            "presentacion-listas",
+            "comision-electoral",
+            "empate-elecciones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quien-conduce-el-club",
+      "titulo": "Quién conduce el club",
+      "descripcion": "Autoridades, mandatos y responsabilidades.",
+      "orden": 3,
+      "subtemas": [
+        {
+          "id": "composicion",
+          "titulo": "Composición de la Comisión Directiva",
+          "cambios": [
+            "composicion-directiva"
+          ]
+        },
+        {
+          "id": "mandatos",
+          "titulo": "Duración de los mandatos",
+          "cambios": [
+            "duracion-mandatos"
+          ]
+        },
+        {
+          "id": "reeleccion",
+          "titulo": "Reelección y renovación",
+          "cambios": [
+            "reeleccion-presidente",
+            "renovacion-directiva"
+          ]
+        },
+        {
+          "id": "requisitos",
+          "titulo": "Requisitos para ocupar cargos",
+          "cambios": [
+            "requisitos-cargos"
+          ]
+        },
+        {
+          "id": "gestion",
+          "titulo": "Funcionamiento y responsabilidades",
+          "cambios": [
+            "reuniones-directiva",
+            "sucesion-presidente",
+            "responsabilidades-gestion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dinero-y-patrimonio",
+      "titulo": "Dinero y patrimonio",
+      "descripcion": "Recursos, financiamiento y decisiones económicas.",
+      "orden": 4,
+      "subtemas": [
+        {
+          "id": "bienes",
+          "titulo": "Bienes y recursos del club",
+          "cambios": [
+            "patrimonio",
+            "recursos"
+          ]
+        },
+        {
+          "id": "financiamiento",
+          "titulo": "Herramientas de financiamiento",
+          "cambios": [
+            "instrumentos-financieros",
+            "limites-financiamiento"
+          ]
+        },
+        {
+          "id": "facultades",
+          "titulo": "Facultades de la Comisión Directiva",
+          "cambios": [
+            "presupuesto-control"
+          ]
+        },
+        {
+          "id": "autorizaciones",
+          "titulo": "Decisiones que requieren Asamblea",
+          "cambios": [
+            "inmuebles",
+            "contratos-futbol",
+            "bienes-muebles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controles-y-convivencia",
+      "titulo": "Controles y convivencia",
+      "descripcion": "Fiscalización, disciplina y garantías.",
+      "orden": 5,
+      "subtemas": [
+        {
+          "id": "fiscalizacion",
+          "titulo": "Comisión Fiscalizadora",
+          "cambios": [
+            "comision-fiscalizadora"
+          ]
+        },
+        {
+          "id": "tribunal",
+          "titulo": "Tribunal de Conducta",
+          "cambios": [
+            "tribunal-conducta"
+          ]
+        },
+        {
+          "id": "disciplina",
+          "titulo": "Régimen disciplinario",
+          "cambios": [
+            "regimen-disciplinario"
+          ]
+        },
+        {
+          "id": "apelaciones",
+          "titulo": "Apelación de sanciones",
+          "cambios": [
+            "apelacion-exclusion"
+          ]
+        },
+        {
+          "id": "disputas",
+          "titulo": "Resolución de disputas",
+          "cambios": [
+            "disputas-deportivas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "identidad-y-comunidad",
+      "titulo": "Identidad y comunidad",
+      "descripcion": "Símbolos, filiales y vida institucional.",
+      "orden": 6,
+      "subtemas": [
+        {
+          "id": "identidad",
+          "titulo": "Símbolos y naturaleza del club",
+          "cambios": [
+            "naturaleza-club",
+            "simbolos"
+          ]
+        },
+        {
+          "id": "fines",
+          "titulo": "Fines sociales",
+          "cambios": [
+            "fines-sociales",
+            "prohibiciones-anteriores"
+          ]
+        },
+        {
+          "id": "filiales",
+          "titulo": "Filiales",
+          "cambios": [
+            "filiales"
+          ]
+        },
+        {
+          "id": "alberdi",
+          "titulo": "Vínculo con Alberdi y disolución",
+          "cambios": [
+            "remanente-alberdi",
+            "disolucion"
+          ]
+        },
+        {
+          "id": "vigencia",
+          "titulo": "Entrada en vigencia",
+          "cambios": [
+            "vigencia-transicion"
+          ]
+        }
+      ]
+    }
+  ],
+  "cambios": [
+    {
+      "id": "categorias-socios",
+      "titulo": "Categorías de socios",
+      "estatutoVigente": {
+        "resumen": "El anexo enumera diez categorías: honorarios, vitalicios, activos, cadetes, familiar, tribuna preferencial, tribuna popular, jugadores, deportivo y dependientes.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Se establecen cuatro categorías: infantiles hasta los 12 años inclusive, adolescentes de 13 a 17, mayores desde los 18 y vitalicias con requisitos específicos.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Las categorías se organizan principalmente por edad; el paso de infantil a adolescente y de adolescente a mayor es automático.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Simplificar las categorías y evitar trámites al cumplir la edad de pase.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El reempadronamiento a las nuevas categorías se realizaría sin trámite del socio (art. 107).",
+        "La modificación o ampliación de categorías, derechos u obligaciones queda reservada a la Asamblea (art. 55 o).",
+        "El ingreso requiere documento oficial, cumplimiento de requisitos y admisión por la Comisión Directiva (art. 8).",
+        "El anexo vincula tribunas y beneficios con aranceles y reglamentos; el proyecto aportado no permite afirmar que todos los beneficios comerciales actuales se conservarán sin cambios."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            55,
+            107
+          ],
+          "paginas": [
+            3,
+            4,
+            5,
+            16,
+            17,
+            31
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            5
+          ],
+          "articulosVigentesMencionados": [
+            15
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "terminologia",
+      "titulo": "La expresión personas asociadas",
+      "estatutoVigente": {
+        "resumen": "El anexo describe el uso de la palabra socios.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El proyecto utiliza la expresión personas asociadas.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Cambia la denominación general empleada en el articulado. Los cambios de derechos deben analizarse por separado.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Adoptar un lenguaje inclusivo.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La sustitución de una palabra no significa que todas las reglas anteriores permanezcan iguales."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            8,
+            9,
+            18,
+            19
+          ],
+          "paginas": [
+            3,
+            4,
+            6,
+            7
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            5
+          ],
+          "articulosVigentesMencionados": []
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "honorarios",
+      "titulo": "Reconocimientos honorarios",
+      "estatutoVigente": {
+        "resumen": "Según el anexo, el título honorario lo otorgaba la Asamblea con dos tercios de los votos, a propuesta de la Comisión Directiva.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La Comisión Directiva puede otorgar reconocimientos honorarios; no hay una categoría societaria honoraria en la lista del art. 9.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "El reconocimiento pasa a una facultad de la Comisión Directiva.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Agilizar el reconocimiento a personas que prestaron servicios importantes al club.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La referencia correcta en el proyecto aportado es el art. 55 p, no el art. 56 m indicado en el anexo."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            9,
+            55
+          ],
+          "paginas": [
+            4,
+            16,
+            17
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            6
+          ],
+          "articulosVigentesMencionados": [
+            16,
+            17
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "vitalicia-requisitos",
+      "titulo": "Acceso a la categoría vitalicia",
+      "estatutoVigente": {
+        "resumen": "Según el anexo, se exigen 30 años continuos como socio activo y existe un tope del 30% del padrón de activos; se exime del pago de cuotas.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Se exigen 70 años de edad o más, al menos 30 años ininterrumpidos como persona asociada mayor y ausencia de sanciones disciplinarias o antecedentes que afecten la conducta institucional.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se agrega la edad mínima de 70 años. El artículo propuesto no establece el cupo del 30% mencionado en el anexo.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Vincular el reconocimiento vitalicio con una trayectoria prolongada como socio.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Se mantiene la exención de cuota social y los derechos de la categoría mayor.",
+        "Quienes ya hayan obtenido la condición vitalicia al entrar en vigencia el nuevo estatuto conservarían íntegramente sus derechos y prerrogativas (art. 108).",
+        "El anexo cita el art. 12; la categoría vitalicia está en el art. 13 del proyecto aportado."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            13,
+            108
+          ],
+          "paginas": [
+            4,
+            5,
+            31
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            6
+          ],
+          "articulosVigentesMencionados": [
+            18,
+            19
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "derechos-generales",
+      "titulo": "Derechos de las personas asociadas",
+      "estatutoVigente": {
+        "resumen": null,
+        "procedencia": "sin_comparacion_documentada",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El proyecto reconoce el derecho a peticionar, usar instalaciones, practicar y presenciar actividades conforme a los reglamentos, y recibir trato igualitario sin discriminación.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Esta ficha resume el proyecto; el anexo no permite reconstruir una comparación completa de cada derecho.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": null,
+        "naturaleza": "no_identificado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Los derechos políticos tienen requisitos propios y se explican en el tema de voto y participación."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            18
+          ],
+          "paginas": [
+            6
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "obligaciones-carnet",
+      "titulo": "Obligaciones y acreditación de socio",
+      "estatutoVigente": {
+        "resumen": "El anexo describe siete incisos de obligaciones y un régimen detallado de carnets y recibos personales e intransferibles.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Se debe cumplir el estatuto y las resoluciones, mantener trato respetuoso, concurrir ante citación especial, actualizar datos y abonar la cuota. La acreditación puede ser física o digital.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se habilitan formas digitales, electrónicas o biométricas de identificación por decisión de la Comisión Directiva.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Agilizar la identificación y reducir el uso indebido de credenciales.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El carnet es personal e intransferible y debe acompañarse de comprobante de pago al día.",
+        "La habilitación de tecnología no equivale a que ya exista una implementación concreta."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            16,
+            17
+          ],
+          "paginas": [
+            5,
+            6
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            7
+          ],
+          "articulosVigentesMencionados": [
+            33,
+            34,
+            35,
+            36,
+            37
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "cuotas-aranceles",
+      "titulo": "Cuotas, aranceles y actividades",
+      "estatutoVigente": {
+        "resumen": "El anexo menciona un tope del 70% sobre el precio de entrada general o platea para recargos por categoría.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La Comisión Directiva fija cuotas ordinarias, extraordinarias y adicionales, becas y exenciones justificadas según el presupuesto, y aranceles para actividades y espectáculos.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "La regulación propuesta deja los importes a decisiones de la Comisión Directiva; no reproduce el tope señalado por el anexo.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Permitir actualizar la política de aranceles.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El proyecto no fija precios concretos.",
+        "El Día del Club puede establecerse hasta dos veces al año (art. 55 n).",
+        "La competencia para modificar categorías, derechos u obligaciones corresponde a la Asamblea (art. 55 o)."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            55
+          ],
+          "paginas": [
+            16,
+            17
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            8
+          ],
+          "articulosVigentesMencionados": [
+            45
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "baja-socio",
+      "titulo": "Baja y cesantía por falta de pago",
+      "estatutoVigente": {
+        "resumen": "El anexo enumera renuncia, cesantía por mora con publicación en diario y expulsión.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La condición se pierde por fallecimiento, solicitud de baja estando al día, cesantía por impago según pautas de la Comisión Directiva o expulsión.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "El procedimiento por atraso en cuotas queda en manos de la Comisión Directiva; el artículo no exige publicación en diario.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Simplificar las comunicaciones y el procedimiento por mora.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El proyecto no fija aquí un plazo concreto de mora ni un canal obligatorio de aviso previo. No presentar una notificación digital como garantía ya establecida."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            14,
+            55
+          ],
+          "paginas": [
+            5,
+            16,
+            17
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            6,
+            7
+          ],
+          "articulosVigentesMencionados": [
+            31
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "reincorporacion",
+      "titulo": "Reincorporación de socios",
+      "estatutoVigente": {
+        "resumen": "El anexo describe reglas según la causa de baja e intervención de la Asamblea para reincorporar expulsados.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La reincorporación se solicita conforme a la reglamentación. En el caso de expulsados, resuelve la Comisión Directiva con dictamen previo del Tribunal de Conducta.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "La decisión sobre reincorporar expulsados pasa de la Asamblea a la Comisión Directiva.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Evitar que la reincorporación dependa de la próxima Asamblea.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            15
+          ],
+          "paginas": [
+            5
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            7
+          ],
+          "articulosVigentesMencionados": [
+            32
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "edad-voto",
+      "titulo": "Voto desde los 16 años",
+      "estatutoVigente": {
+        "resumen": "El anexo indica voto desde los 18 años para activos y vitalicios con un año de antigüedad y cuotas al día.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El art. 19 incluye adolescentes desde los 16 años, mayores y vitalicios para elegir autoridades y participar con voz y voto en Asambleas; establece antigüedad mínima ininterrumpida de un año y cuotas al día para la participación asamblearia.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se incorpora expresamente a socios de 16 y 17 años. Votar y ser candidato tienen requisitos diferentes.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Ampliar la participación de socios adolescentes.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El art. 88 remite a las categorías con derecho a votar; no enumera nuevamente todos los requisitos.",
+        "La síntesis del anexo presenta el año de antigüedad como requisito general para votar. El art. 19 ubica expresamente esa condición en el inciso sobre Asambleas."
+      ],
+      "notasRevision": [
+        "Confirmar la lectura conjunta de los arts. 19 y 88 antes de usar esta ficha como verificador personalizado de elegibilidad electoral."
+      ],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            19,
+            36,
+            85,
+            88
+          ],
+          "paginas": [
+            6,
+            7,
+            11,
+            12,
+            25,
+            26
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            8,
+            16
+          ],
+          "articulosVigentesMencionados": [
+            45,
+            115
+          ]
+        }
+      ],
+      "estadoRevision": "requiere_aclaracion",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "cuotas-elecciones",
+      "titulo": "Plazo para regularizar cuotas",
+      "estatutoVigente": {
+        "resumen": "Según el anexo, las cuotas pueden regularizarse hasta ocho días antes de la elección.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El art. 88 exige regularizar la situación hasta quince días corridos antes de los comicios.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "La fecha límite se adelanta siete días respecto del régimen descrito por el anexo; no se otorgan siete días adicionales para pagar.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": null,
+        "naturaleza": "no_identificado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [],
+      "notasRevision": [
+        "El anexo dice que se extiende el plazo: esa expresión puede confundir. El vencimiento pasa de 8 a 15 días antes de la elección."
+      ],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            88
+          ],
+          "paginas": [
+            26
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            16
+          ],
+          "articulosVigentesMencionados": [
+            115
+          ]
+        }
+      ],
+      "estadoRevision": "requiere_aclaracion",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "asamblea-ordinaria",
+      "titulo": "Asamblea anual y documentación",
+      "estatutoVigente": {
+        "resumen": "Según el anexo, la Asamblea Ordinaria se realiza en abril.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Debe celebrarse dentro de los 120 días corridos posteriores al cierre del ejercicio, fijado al 31 de diciembre. Trata balance, memoria, informe fiscalizador, autoridades cuando corresponda y los demás asuntos del orden del día.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "La fecha se define por el plazo posterior al cierre. La documentación del balance y de reformas debe estar disponible con al menos quince días de anticipación.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Coordinar el tratamiento asambleario con la preparación de la documentación anual.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La documentación se pone a disposición en sede, página web y redes oficiales."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            26,
+            27,
+            31
+          ],
+          "paginas": [
+            8,
+            10
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            9
+          ],
+          "articulosVigentesMencionados": [
+            49
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "convocatoria-asamblea",
+      "titulo": "Convocatoria y pedidos de los socios",
+      "estatutoVigente": {
+        "resumen": "El anexo describe una convocatoria con treinta días de anticipación, publicación oficial y en diario, y carteles en el club.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La convocatoria mantiene al menos treinta días de anticipación, medios legales, exhibición en sede y difusión en web y redes. Debe informar fecha, hora, lugar y orden del día.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se incorporan canales digitales expresos y se regula el pedido de Asamblea Extraordinaria.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Mejorar la difusión de las convocatorias.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La Comisión Fiscalizadora o al menos el 10% de socios con derecho a voto pueden solicitar Asamblea Extraordinaria.",
+        "La Comisión Directiva debe resolver el pedido dentro de quince días; ante silencio o rechazo sin fundamento, a criterio de los peticionantes, estos pueden recurrir al órgano estatal de contralor."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            19,
+            29,
+            30
+          ],
+          "paginas": [
+            6,
+            7,
+            10
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            9
+          ],
+          "articulosVigentesMencionados": [
+            53
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "quorum-asamblea",
+      "titulo": "Cuántas personas deben asistir",
+      "estatutoVigente": {
+        "resumen": "El anexo describe un mínimo de sesenta socios con derecho a voto y treinta minutos de tolerancia.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La primera convocatoria requiere mitad más una de las personas con derecho a voto y tiene quince minutos de tolerancia. La segunda se realiza quince minutos después de vencida esa tolerancia, con quienes estén presentes.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se cambia el mínimo inicial y se admite sesionar en segunda convocatoria sin ese mínimo.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Combinar un requisito inicial de participación con una segunda convocatoria que permita funcionar.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La segunda convocatoria se ubica, según la secuencia literal, treinta minutos después de la hora estipulada: quince de tolerancia más otros quince.",
+        "Las decisiones son por mayoría simple salvo mayorías especiales; solo se tratan asuntos del orden del día."
+      ],
+      "notasRevision": [
+        "El anexo simplifica el horario de la segunda convocatoria como quince minutos después. Conservar la secuencia completa del art. 33."
+      ],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            33,
+            34
+          ],
+          "paginas": [
+            11
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            9,
+            10
+          ],
+          "articulosVigentesMencionados": [
+            55,
+            56
+          ]
+        }
+      ],
+      "estadoRevision": "requiere_aclaracion",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "reforma-estatuto",
+      "titulo": "Cómo se aprobarían futuras reformas",
+      "estatutoVigente": {
+        "resumen": "El anexo indica un quórum especial del 25% de activos y vitalicios y aprobación por dos tercios de los presentes.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La reforma se trata en Asamblea Extraordinaria y exige dos tercios de los presentes con derecho a voto. No fija un quórum especial distinto del régimen general del art. 33.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se conserva la mayoría de dos tercios, pero el proyecto no reproduce el mínimo especial de asistencia indicado por el anexo.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Unificar el régimen de Asamblea Extraordinaria y facilitar futuras actualizaciones.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La segunda convocatoria con las personas presentes es parte relevante de la comparación; no mostrar solamente mitad más uno.",
+        "Estas son reglas propuestas para el nuevo estatuto; no son instrucciones confirmadas para la votación actual."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            28,
+            33
+          ],
+          "paginas": [
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            11
+          ],
+          "articulosVigentesMencionados": [
+            52
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "asamblea-distancia",
+      "titulo": "Asambleas a distancia",
+      "estatutoVigente": {
+        "resumen": "El anexo señala que no están contempladas en el estatuto vigente.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Podrán celebrarse a distancia si lo decide la Comisión Directiva y se cumplen los requisitos de la autoridad de contralor, con acceso libre de participantes, comunicación simultánea y registro.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se habilita una modalidad adicional condicionada a su implementación y a los requisitos de control.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Facilitar la participación desde otras localidades o con dificultades de movilidad.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "No equivale a que toda Asamblea deba ser virtual o híbrida."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            32
+          ],
+          "paginas": [
+            10,
+            11
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            10
+          ],
+          "articulosVigentesMencionados": []
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "voto-distancia",
+      "titulo": "Modalidad de votación",
+      "estatutoVigente": {
+        "resumen": "El anexo describe elecciones presenciales, boletas de papel y mesas físicas.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El voto es directo, personal y secreto; no se admite voto por poder. Se adopta una modalidad habilitada por la autoridad de contralor, procurando incorporar el voto a distancia.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se abre la posibilidad de participación remota; no se establece una plataforma ni disponibilidad inmediata.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Facilitar el voto de socios del interior y del exterior.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El Código Electoral Provincial se aplica a aspectos no previstos, según el art. 98."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            55,
+            85,
+            98
+          ],
+          "paginas": [
+            16,
+            17,
+            25,
+            26,
+            29
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            16,
+            17
+          ],
+          "articulosVigentesMencionados": []
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "presentacion-listas",
+      "titulo": "Presentación de listas y avales",
+      "estatutoVigente": {
+        "resumen": "El anexo menciona doce días de anticipación y al menos diez avales de socios electores que no sean candidatos.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Las listas se presentan al menos quince días corridos antes. Requieren doscientos avales de personas asociadas que no sean candidatas ni hayan avalado otra lista, aceptación de candidaturas y datos del apoderado.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Aumenta la cantidad de avales y se adelanta la presentación. Presentar una lista y oficializarla son pasos distintos.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Exigir respaldo de socios a las listas y evitar avales múltiples.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El art. 90 d trata la oficialización dentro de los doce días anteriores y resolución dentro de 48 horas; el art. 92 exige presentación al menos quince días antes."
+      ],
+      "notasRevision": [
+        "El anexo agrupa presentación y oficialización bajo un mismo título. No convertir sus plazos en una única fecha."
+      ],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            90,
+            92,
+            93
+          ],
+          "paginas": [
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            16
+          ],
+          "articulosVigentesMencionados": [
+            118,
+            119
+          ]
+        }
+      ],
+      "estadoRevision": "requiere_aclaracion",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "comision-electoral",
+      "titulo": "Quién organiza y controla la elección",
+      "estatutoVigente": {
+        "resumen": null,
+        "procedencia": "sin_comparacion_documentada",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La Comisión Directiva designa una Comisión Electoral de cinco personas: dos de sus miembros y tres socios mayores o vitalicios con derecho a voto que no ocupen cargos ni integren listas.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "El proyecto la define como autónoma e imparcial, pero su integración incluye dos miembros de la Comisión Directiva.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Organizar y fiscalizar las elecciones con un órgano electoral y plazos definidos.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El anexo presenta la Comisión Electoral como integrada por socios sin cargos. El art. 89 incluye expresamente dos miembros de la Directiva; la restricción se refiere a los otros tres."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            89,
+            90,
+            91
+          ],
+          "paginas": [
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            16,
+            17
+          ],
+          "articulosVigentesMencionados": [
+            "Observaciones al padrón: hasta diez días antes, con resolución dentro de 48 horas.",
+            "Padrón definitivo: publicación siete días antes. Rectificaciones comprobadas: hasta cuatro días antes, con resolución de reclamaciones dentro de dos días.",
+            "Las decisiones se apelan ante la Comisión Directiva, excepto las del día electoral, que se apelan ante la Asamblea. Quienes integraron la Comisión Electoral se abstienen al resolver en la Directiva."
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "empate-elecciones",
+      "titulo": "Empates, lista única y falta de listas",
+      "estatutoVigente": {
+        "resumen": "El anexo indica que un empate lleva a repetir la elección con los mismos candidatos el segundo domingo siguiente, sobre toda la lista.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El empate se resuelve con nueva elección el segundo domingo siguiente, solo en la sección empatada y entre las listas empatadas.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "La repetición queda limitada a la sección sin resultado definido.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Evitar repetir partes de la elección que ya tienen resultado.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Si hay una sola lista, la Asamblea la proclama automáticamente sin comicios.",
+        "Si no hay listas, la Asamblea designa una comisión transitoria de diez personas y debe convocar nuevas elecciones dentro de diez días.",
+        "La Comisión Electoral termina su mandato después de asumir las autoridades elegidas."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            94,
+            95,
+            96,
+            97
+          ],
+          "paginas": [
+            28,
+            29
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            17
+          ],
+          "articulosVigentesMencionados": [
+            129
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "composicion-directiva",
+      "titulo": "Composición y representación de minorías",
+      "estatutoVigente": {
+        "resumen": "El anexo enumera un presidente, tres vicepresidentes, secretario, prosecretario, tesorero, protesorero, ocho vocales titulares y cinco suplentes; su total declarado no coincide con esa enumeración.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El art. 44 declara diecinueve titulares y cinco suplentes. El art. 45 enumera un presidente, cinco vicepresidentes, cuatro cargos de secretaría/tesorería y nueve vocales, además de cinco suplentes.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se proponen cinco vicepresidencias. El total y la distribución de cargos requieren aclaración porque la enumeración del art. 45 suma veinte titulares.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Distribuir responsabilidades de gestión por áreas.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La primera minoría con más del 35% de votos emitidos obtiene un vocal titular y un suplente, desplazando los indicados de la mayoría.",
+        "El art. 46 dispone elegir secretario, prosecretario, tesorero y protesorero entre los vocales titulares dentro de dos días de la Asamblea."
+      ],
+      "notasRevision": [
+        "Inconsistencia interna: diecinueve titulares en art. 44 frente a veinte cargos enumerados en art. 45. No elegir arbitrariamente un total ni presentar una infografía cerrada hasta aclararlo."
+      ],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            44,
+            45,
+            46
+          ],
+          "paginas": [
+            14
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            11,
+            12
+          ],
+          "articulosVigentesMencionados": [
+            62
+          ]
+        }
+      ],
+      "estadoRevision": "requiere_aclaracion",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "duracion-mandatos",
+      "titulo": "Mandatos de cuatro años",
+      "estatutoVigente": {
+        "resumen": "El anexo indica tres años para la Comisión Directiva, mandato fiscalizador vinculado a ella y seis años para el Tribunal de Conducta.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Los mandatos de los tres órganos serán de cuatro años.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se unifica la duración de Directiva, Fiscalizadora y Tribunal de Conducta.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Dar previsibilidad a proyectos institucionales y deportivos.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La conformación y duración nuevas se aplican desde los primeros comicios bajo el nuevo estatuto.",
+        "El mandato de los actuales integrantes del Tribunal se extiende hasta esos primeros comicios para elegir todos los órganos juntos."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            37,
+            109,
+            111
+          ],
+          "paginas": [
+            12,
+            31,
+            32
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            12,
+            14,
+            15
+          ],
+          "articulosVigentesMencionados": [
+            65,
+            103
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "reeleccion-presidente",
+      "titulo": "Reelección presidencial y otros cargos",
+      "estatutoVigente": {
+        "resumen": "El anexo indica una sola reelección presidencial y obligación de alternar un período antes de volver a cualquier cargo directivo.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El presidente puede ser reelegido por un solo período. Quien fue presidente puede ser elegido en otro cargo de la Directiva sin limitación en los términos del art. 47.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se mantiene el límite indicado para la presidencia y se habilita continuar en otros cargos. La regla transitoria modifica qué mandatos se cuentan.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Mantener un límite presidencial e incorporar renovación de integrantes.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El art. 110 considera primer mandato a la Directiva elegida en los primeros comicios bajo el nuevo estatuto; no computa mandatos anteriores para el art. 47.",
+        "Una renuncia o cese anticipado cuenta como mandato completo. Un reemplazo por vacancia permanente cuenta si supera el 50% del mandato original (art. 40)."
+      ],
+      "notasRevision": [
+        "El anexo no desarrolla el reinicio del cómputo del art. 110. Esta condición debe mostrarse junto con el límite de reelección, no escondida en fuentes."
+      ],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            40,
+            47,
+            110
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            31,
+            32
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            12
+          ],
+          "articulosVigentesMencionados": [
+            65
+          ]
+        }
+      ],
+      "estadoRevision": "requiere_aclaracion",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "renovacion-directiva",
+      "titulo": "Renovación mínima de la Directiva",
+      "estatutoVigente": {
+        "resumen": "El anexo no identifica una regla equivalente de renovación mínima.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Debe renovarse al menos el 25% del conjunto de titulares y suplentes respecto de la integración inicial del mandato anterior.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se introduce una renovación mínima, con aplicación diferida.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Incorporar nuevos integrantes a la conducción.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            47,
+            106
+          ],
+          "paginas": [
+            14,
+            15,
+            31
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            12
+          ],
+          "articulosVigentesMencionados": [
+            "El art. 106 exceptúa la próxima elección: la exigencia comienza en la siguiente.",
+            "No calcular un número definitivo de personas mientras no se aclare la composición de los arts. 44 y 45."
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "requisitos-cargos",
+      "titulo": "Edad, antigüedad e incompatibilidades",
+      "estatutoVigente": {
+        "resumen": "El anexo menciona 25 años de edad, cinco de antigüedad para presidencia y vicepresidencias y dos para otros cargos, además de condiciones personales y patrimoniales.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El art. 36 exige cinco años como persona asociada o condición vitalicia, sin sanciones en los últimos seis meses. Expresa edades de 21 para cargos generales y 25 para presidencia y vicepresidencias, con una redacción que combina más de e inclusive.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se modifican edad y antigüedad, y se detallan incompatibilidades para los tres órganos.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Ampliar el acceso de socios jóvenes y fijar requisitos de integridad.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "No se admite simultáneamente empleo en el club, cargos electivos, políticos o laborales en otras entidades afiliadas a AFA, ni ser deudor, acreedor o mantener vínculos contractuales o comerciales con el club, incluyendo participación en entidades contratantes.",
+        "Hay cese por incumplir requisitos, condena firme por delito doloso, exclusión, determinados registros e inhabilitaciones."
+      ],
+      "notasRevision": [
+        "Confirmar la redacción de edades del art. 36 b antes de convertirlas en un cálculo de elegibilidad. El anexo además habla de antigüedad como mayor, mientras el art. 36 a dice como persona asociada o vitalicia."
+      ],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            36,
+            38
+          ],
+          "paginas": [
+            11,
+            12
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            12,
+            13
+          ],
+          "articulosVigentesMencionados": [
+            66
+          ]
+        }
+      ],
+      "estadoRevision": "requiere_aclaracion",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "reuniones-directiva",
+      "titulo": "Reuniones y decisiones de la Directiva",
+      "estatutoVigente": {
+        "resumen": "El anexo describe una reunión ordinaria semanal como mínimo.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La Directiva se reúne al menos cada treinta días. Se permiten reuniones presenciales o a distancia; se exige orden del día y quórum de mitad más uno de titulares.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "La frecuencia mínima pasa a mensual y se formalizan modalidades y convocatorias.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Fijar una periodicidad mínima y habilitar reuniones a distancia.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Diez titulares pueden pedir reunión por escrito; la convocatoria debe cursarse dentro de 48 horas hábiles.",
+        "Los temas fuera del orden del día requieren totalidad de integrantes y unanimidad en Directiva y Fiscalizadora.",
+        "Decisiones por mayoría simple; presidencia tiene doble voto en empate. Suplentes y Fiscalizadora pueden asistir con voz, sin voto."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            41,
+            42,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54
+          ],
+          "paginas": [
+            13,
+            14,
+            15,
+            16
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            13
+          ],
+          "articulosVigentesMencionados": [
+            68
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "sucesion-presidente",
+      "titulo": "Reemplazo del presidente",
+      "estatutoVigente": {
+        "resumen": "El anexo describe sucesión por orden de vicepresidencias y reglas según el tiempo restante.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Los titulares eligen por mayoría simple al vicepresidente reemplazante. No puede ser quien fue presidente en el mandato anterior, salvo que lo hubiera sido por un solo mandato.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "La sucesión pasa a una elección interna entre vicepresidentes, con una excepción expresa sobre el mandato presidencial anterior.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Resolver la sucesión según las circunstancias y la decisión de la Directiva.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Si vacan presidencia y todas las vicepresidencias, los restantes titulares designan un presidente provisorio hasta designación por Asamblea o fin del mandato, lo que suceda primero.",
+        "La columna de propuesta del anexo omite la excepción por un solo mandato; su columna de objetivos sí la menciona."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            39,
+            40,
+            60,
+            62
+          ],
+          "paginas": [
+            12,
+            13,
+            19,
+            20
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            13,
+            14
+          ],
+          "articulosVigentesMencionados": [
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "responsabilidades-gestion",
+      "titulo": "Funciones y responsabilidad de las autoridades",
+      "estatutoVigente": {
+        "resumen": null,
+        "procedencia": "sin_comparacion_documentada",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La Directiva administra, reglamenta y ejecuta decisiones asamblearias. Presidencia representa al club; secretaría lleva registros; tesorería gestiona fondos y contabilidad; vocales participan y asisten en tareas.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Esta ficha describe el funcionamiento propuesto sin afirmar que todas estas funciones sean nuevas.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": null,
+        "naturaleza": "no_identificado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La delegación de tareas excluye deberes indelegables por naturaleza o estatuto.",
+        "El art. 43 prevé responsabilidad personal y solidaria por incumplimiento y perjuicio patrimonial por dolo o negligencia grave, con la salvedad de oposición fundada registrada.",
+        "Tesorería presenta estado de caja mensual y elabora balance, inventario y presupuesto."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            43,
+            55,
+            58,
+            59,
+            61,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68
+          ],
+          "paginas": [
+            14,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "patrimonio",
+      "titulo": "Qué integra el patrimonio",
+      "estatutoVigente": {
+        "resumen": "El anexo menciona bienes muebles e inmuebles, derechos federativos y distintas fuentes de ingresos.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Se incluyen bienes materiales e intangibles: marca, escudo, colores, imagen, derechos federativos y económicos, audiovisuales y digitales, reservas, trofeos y bienes históricos.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se enumeran expresamente activos intangibles e históricos.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Reconocer y proteger el patrimonio material e inmaterial del club.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La enumeración de activos no implica que todos se rijan por idéntica autorización: inmuebles, muebles y financiamiento tienen reglas distintas.",
+        "El anexo refiere al art. 5; la enumeración patrimonial está en el art. 6."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            6,
+            55,
+            56
+          ],
+          "paginas": [
+            2,
+            3,
+            16,
+            17,
+            18
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            3
+          ],
+          "articulosVigentesMencionados": [
+            12
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "recursos",
+      "titulo": "Fuentes de ingresos",
+      "estatutoVigente": {
+        "resumen": "El anexo enumera cuotas, derechos federativos, entradas, alquileres, publicidad y donaciones.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Se detallan cuotas, entradas y abonos, fútbol y otros deportes, televisión, patrocinio, marketing, licencias, inversiones, indumentaria, transferencias, donaciones y herramientas financieras.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "El listado explicita fuentes de ingresos y financiamiento ligadas a la actividad del club.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Reflejar las fuentes actuales de ingresos y habilitar financiamiento de proyectos.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Que una fuente esté prevista no significa que ya genere ingresos ni que sea una obligación usarla."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            7
+          ],
+          "paginas": [
+            3
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            4
+          ],
+          "articulosVigentesMencionados": [
+            12
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "instrumentos-financieros",
+      "titulo": "Obligaciones negociables y otros instrumentos",
+      "estatutoVigente": {
+        "resumen": "El anexo describe capacidad de contraer obligaciones y adquirir bienes, con autorización asamblearia para actos relevantes.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Se prevé emitir obligaciones negociables y otros valores conforme al marco legal citado en el proyecto. Las autorizaciones se articulan entre los arts. 28 e y 56.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se explicitan instrumentos de financiamiento y facultades de emisión con límites.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Ampliar alternativas de financiamiento regulado.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La explicación del anexo sobre autorización asamblearia es incompleta si se omite la excepción del art. 56."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            4,
+            5,
+            28,
+            56
+          ],
+          "paginas": [
+            2,
+            8,
+            9,
+            10,
+            17,
+            18
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            2,
+            3
+          ],
+          "articulosVigentesMencionados": [
+            "El art. 56 permite a la Directiva aprobar emisiones dentro de sus límites. No afirmar que toda emisión necesita autorización previa de Asamblea.",
+            "El art. 28 e contempla intervención asamblearia fuera de esa previsión y la posibilidad de delegar decisiones de emisión."
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "inmuebles",
+      "titulo": "Venta, hipoteca y compra de inmuebles",
+      "estatutoVigente": {
+        "resumen": "El anexo indica autorización de Asamblea Extraordinaria con dos tercios para venta o hipoteca, y un umbral del 12% del presupuesto para edificación.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Venta, hipoteca, permuta y transmisión de dominio fiduciario de inmuebles requieren autorización de Asamblea Extraordinaria. Compra o edificación la requieren si superan el 20% del patrimonio neto del balance anterior.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se distinguen actos sobre inmuebles sin umbral de compra o edificación con umbral.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Mantener decisiones inmobiliarias relevantes bajo intervención asamblearia.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El art. 28 a no fija dos tercios para inmuebles; la regla general del art. 34 es mayoría simple salvo excepción.",
+        "Presupuesto y patrimonio neto son bases distintas: un porcentaje mayor no demuestra por sí solo que el monto permitido sea mayor."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            28,
+            34
+          ],
+          "paginas": [
+            8,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            4,
+            10,
+            11
+          ],
+          "articulosVigentesMencionados": [
+            13,
+            14,
+            52
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "limites-financiamiento",
+      "titulo": "Límites de financiamiento de la Directiva",
+      "estatutoVigente": {
+        "resumen": "El anexo menciona límites anteriores sobre presupuesto, incluyendo 10% para préstamos.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Para obras, mantenimiento o mejoras, la Directiva puede gestionar financiamiento sin autorización previa hasta el 20% del patrimonio neto del balance anterior. Para otros destinos, excluidos contratos con jugadores profesionales, hasta el 25% de egresos del presupuesto anual.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se diferencian destinos y bases de cálculo. Superados los límites interviene la Asamblea según el art. 28.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Dar capacidad operativa a la gestión con umbrales de control.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Los límites del art. 56 rigen durante todo el período de gestión o mandato, no como permiso nuevo para cada operación.",
+        "No comparar directamente porcentajes sobre patrimonio neto con porcentajes sobre presupuesto."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            28,
+            56
+          ],
+          "paginas": [
+            8,
+            9,
+            10,
+            17,
+            18
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            4,
+            10,
+            11
+          ],
+          "articulosVigentesMencionados": [
+            52
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "contratos-futbol",
+      "titulo": "Contratos de fútbol que exceden lo presupuestado",
+      "estatutoVigente": {
+        "resumen": "El anexo indica ratificación cuando contratos de jugadores profesionales exceden en 30% lo presupuestado.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El art. 28 f establece ratificación asamblearia para contratos de planteles de fútbol y cuerpo técnico que excedan en 30% las previsiones de sus rubros, incluyendo incorporación, remuneración, mantenimiento o rescisión.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "El proyecto mantiene un 30% en este inciso y expresa una excepción por compensación con ingresos extraordinarios.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Permitir decisiones en los tiempos del mercado y someter los casos previstos a ratificación.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "No se exige ratificación si las obligaciones se compensan dentro del mismo ejercicio con ingresos y créditos extraordinarios no previstos en el presupuesto."
+      ],
+      "notasRevision": [
+        "El anexo informa 25% en la columna de propuesta para estos contratos, pero el art. 28 f del proyecto dice 30%. Mostrar la diferencia; esta ficha resume el proyecto."
+      ],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            28
+          ],
+          "paginas": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            10,
+            11
+          ],
+          "articulosVigentesMencionados": [
+            52
+          ]
+        }
+      ],
+      "estadoRevision": "requiere_aclaracion",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "bienes-muebles",
+      "titulo": "Venta o gravamen de bienes muebles",
+      "estatutoVigente": {
+        "resumen": "El anexo menciona un umbral del 5% del presupuesto general.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La Asamblea ratifica acuerdos de enajenación o gravamen sobre bienes muebles que individualmente representen más del 10% del patrimonio neto del balance anterior.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Cambian la base de cálculo y el umbral; el proyecto habla de ratificación.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Reservar operaciones de mayor magnitud al control asambleario.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La palabra individualmente pertenece a esta regla; no extenderla al límite de financiamiento de todo el mandato."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            28
+          ],
+          "paginas": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            10,
+            11
+          ],
+          "articulosVigentesMencionados": [
+            52
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "presupuesto-control",
+      "titulo": "Ajustes presupuestarios e informes de pases",
+      "estatutoVigente": {
+        "resumen": null,
+        "procedencia": "sin_comparacion_documentada",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La Directiva elabora el presupuesto, puede adecuarlo dentro del ejercicio según el límite del art. 57 y debe comunicar modificaciones a la Fiscalizadora. Debe publicar un informe de altas, bajas y montos al cierre de cada mercado de pases profesional.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "La propuesta especifica facultades de ajuste y deberes de información. No se afirma que todos sean nuevos respecto del vigente.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": null,
+        "naturaleza": "no_identificado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El art. 57 fija hasta un 25% del importe neto resultante de compensar gastos o inversiones contra ingresos percibidos; no debe resumirse como 25% del presupuesto sin más.",
+        "La Directiva puede disponer de ingresos extraordinarios no previstos dando cuenta a la Fiscalizadora.",
+        "Las contrataciones deben usar mecanismos de transparencia e igualdad de oportunidades entre proveedores (art. 55 q)."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            55,
+            57,
+            65,
+            72
+          ],
+          "paginas": [
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            23
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "comision-fiscalizadora",
+      "titulo": "Comisión Fiscalizadora",
+      "estatutoVigente": {
+        "resumen": "El anexo describe tres titulares, dos suplentes, mandato ligado a la Directiva y una reelección.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Mantiene tres titulares y dos suplentes, con mandato de cuatro años. Al menos dos titulares y un suplente deben ser abogados o contadores públicos nacionales. Permite dos reelecciones consecutivas en el mismo cargo: tres mandatos en total antes de un período de intervalo.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se agrega una exigencia profesional y se modifica la posibilidad de reelección.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Combinar experiencia técnica y renovación del órgano de control.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Examina documentación y practica comprobaciones al menos mensualmente; informa irregularidades a la Directiva dentro de cinco días de constatadas.",
+        "Controla administración, inversión y pagos presupuestados, dictamina ante la Asamblea y puede pedir Asamblea Extraordinaria.",
+        "Sesiona al menos mensualmente con dos titulares; resuelve por mayoría simple, con doble voto presidencial en empate."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            37,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76
+          ],
+          "paginas": [
+            12,
+            22,
+            23,
+            24
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            14
+          ],
+          "articulosVigentesMencionados": [
+            94,
+            103
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "tribunal-conducta",
+      "titulo": "Tribunal de Conducta",
+      "estatutoVigente": {
+        "resumen": "El anexo señala mandato de seis años y reelección indefinida.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Tres titulares y dos suplentes, con mandato de cuatro años y hasta dos reelecciones consecutivas en el mismo cargo. Después de tres mandatos debe mediar un período completo.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se limita la continuidad consecutiva y se unifica la duración con los demás órganos.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Incorporar renovación al órgano que trata la conducta de socios.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Puede actuar de oficio, por denuncia de un socio o de otros órganos, o por disposición de Asamblea.",
+        "Sesiona con dos titulares y resuelve por mayoría simple; en empate, presidencia tiene doble voto.",
+        "El mandato actual se extiende hasta los primeros comicios bajo el nuevo estatuto."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            37,
+            80,
+            81,
+            82,
+            83,
+            84,
+            111
+          ],
+          "paginas": [
+            12,
+            24,
+            25,
+            32
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            15
+          ],
+          "articulosVigentesMencionados": [
+            103
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "regimen-disciplinario",
+      "titulo": "Sanciones y procedimiento",
+      "estatutoVigente": {
+        "resumen": "El anexo describe faltas, procedimiento, plazos y sanciones detallados en el estatuto.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Se prevén amonestación, suspensión y exclusión por incumplimientos, daño patrimonial doloso y actos de violencia, discriminación, amenazas, hostigamiento o desórdenes vinculados al club.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "El procedimiento se desarrolla en un régimen aprobado por la Directiva a propuesta del Tribunal, con garantía de debido proceso.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Mantener el marco de sanciones en el estatuto y permitir ajustes del procedimiento mediante reglamento.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El Tribunal desarrolla el proceso y aplica sanciones.",
+        "El reglamento operativo puede modificarse sin una reforma estatutaria; la garantía de debido proceso permanece expresa."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            77,
+            78
+          ],
+          "paginas": [
+            24
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            15
+          ],
+          "articulosVigentesMencionados": [
+            108,
+            109,
+            110,
+            111,
+            112
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "apelacion-exclusion",
+      "titulo": "Apelación de una exclusión",
+      "estatutoVigente": {
+        "resumen": "Según el anexo, la expulsión es apelable ante Asamblea con efecto suspensivo.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "La exclusión debe ser ratificada por la Directiva. Puede apelarse dentro de diez días desde la notificación para que resuelva la primera Asamblea que se celebre.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se establece ratificación por la Directiva y un plazo de apelación. El artículo no indica expresamente si la apelación suspende la sanción.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Añadir ratificación por la Directiva y mantener revisión por Asamblea.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "No afirmar como confirmado que se pierde el efecto suspensivo: el proyecto aportado no lo especifica."
+      ],
+      "notasRevision": [
+        "El anexo dice SIN efecto suspensivo; el art. 79 no contiene esa expresión. Además, el objetivo del anexo presenta la apelación como control nuevo, aunque su propia columna de vigente ya reconoce apelación."
+      ],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            79
+          ],
+          "paginas": [
+            24
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            15
+          ],
+          "articulosVigentesMencionados": [
+            110,
+            112
+          ]
+        }
+      ],
+      "estadoRevision": "requiere_aclaracion",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "disputas-deportivas",
+      "titulo": "Conflictos deportivos y derechos del socio",
+      "estatutoVigente": {
+        "resumen": "El anexo indica que no existe un capítulo equivalente.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Las disputas deportivas comprendidas se remiten a arbitraje reconocido por AFA, TAS/CAS o CNRD según corresponda, salvo normas imperativas. Los conflictos del vínculo asociativo quedan fuera de esas cláusulas arbitrales.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se separan los conflictos deportivos de los relativos a admisión, categorías, derechos, disciplina, Asambleas y elecciones de socios.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Adecuar la resolución de disputas deportivas al sistema federativo y preservar la jurisdicción del vínculo asociativo.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            102,
+            103,
+            104
+          ],
+          "paginas": [
+            30,
+            31
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            18,
+            19
+          ],
+          "articulosVigentesMencionados": [
+            "Para asuntos asociativos, el art. 104 remite al estatuto, Código Civil y Comercial, fiscalización de Personas Jurídicas y tribunales ordinarios de Córdoba, agotadas las instancias internas.",
+            "La descripción es del proyecto; no acredita por sí misma la necesidad jurídica externa de cada cláusula."
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "naturaleza-club",
+      "titulo": "Asociación civil e identidad institucional",
+      "estatutoVigente": {
+        "resumen": "El anexo describe entidad civil sin fines de lucro con domicilio en Córdoba.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El art. 1 define asociación civil sin fines de lucro, fundada el 19 de marzo de 1905, con domicilio legal en Córdoba y duración a perpetuidad.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se agrega expresamente la duración a perpetuidad y se conserva la naturaleza asociativa.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Reafirmar el carácter de asociación civil sin fines de lucro.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La duración a perpetuidad no elimina las reglas específicas de eventual disolución."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            1,
+            99
+          ],
+          "paginas": [
+            1,
+            29
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            1
+          ],
+          "articulosVigentesMencionados": [
+            1
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "simbolos",
+      "titulo": "Símbolos oficiales",
+      "estatutoVigente": {
+        "resumen": "El anexo menciona bandera y uniforme celestes y una insignia a criterio de la Directiva.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El art. 3 describe bandera celeste, escudo circular y uniforme principal celeste con pantalón y medias negros, admitiendo variantes blancas o celestes y colores alternativos por razones reglamentarias.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "La configuración del escudo queda descrita en el estatuto.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Dar reconocimiento estatutario a los símbolos del club.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "El escudo puede ornamentarse en ocasiones especiales sin alterar su configuración esencial.",
+        "Esta ficha informa sobre los símbolos; la interfaz independiente mantiene cab en minúsculas y no utiliza el escudo."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            3
+          ],
+          "paginas": [
+            1,
+            2
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            2
+          ],
+          "articulosVigentesMencionados": [
+            6
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "fines-sociales",
+      "titulo": "Fines deportivos, sociales y comunitarios",
+      "estatutoVigente": {
+        "resumen": "El anexo describe cinco incisos sobre deporte, cultura física y moral, vínculo social y relaciones institucionales.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El art. 2 incorpora expresamente integridad y juego limpio, integración familiar, democracia, transparencia, sustentabilidad, igualdad de género y diversidad, responsabilidad social y ambiental y actividades comunitarias.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se amplían los fines y principios que orientan las actividades del club.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Dar respaldo estatutario a programas y compromisos sociales e institucionales.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La declaración de fines no demuestra por sí misma que un programa esté implementado o produzca un beneficio."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            2
+          ],
+          "paginas": [
+            1
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            1
+          ],
+          "articulosVigentesMencionados": []
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "prohibiciones-anteriores",
+      "titulo": "Cláusulas que el proyecto no reproduce",
+      "estatutoVigente": {
+        "resumen": "El anexo menciona prohibiciones de actividades políticas o religiosas, juegos de azar y determinados nombres de personas en edificios, con condiciones especiales para su modificación.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El proyecto no reproduce la cláusula específica descrita por el anexo. Sí incorpora fines democráticos e integradores y un derecho a no ser discriminado.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se suprime la prohibición estatutaria específica según el comparativo. No equivale a afirmar que cualquier actividad quede automáticamente permitida.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Concentrar el estatuto en las reglas de gobierno y los principios generales.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La existencia de principios generales no es idéntica a conservar una prohibición expresa."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            2,
+            18,
+            36,
+            38
+          ],
+          "paginas": [
+            1,
+            6,
+            11,
+            12
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            1,
+            2
+          ],
+          "articulosVigentesMencionados": [
+            3
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "filiales",
+      "titulo": "Reconocimiento y responsabilidad de filiales",
+      "estatutoVigente": {
+        "resumen": "El anexo indica que la figura no está regulada en el estatuto vigente.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Se consideran filiales los grupos con sede fuera de la ciudad de Córdoba reconocidos por la Directiva conforme a reglamentación.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se regulan reconocimiento, objetivos, obligaciones y pérdida de reconocimiento; las filiales actúan bajo su propia responsabilidad.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Dar un marco formal a la actividad de filiales.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "paginas": [
+            7,
+            8
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            8
+          ],
+          "articulosVigentesMencionados": [
+            "Sus objetivos incluyen difundir identidad, asociar hinchas, canalizar proyectos, apoyar delegaciones y colaborar en captación deportiva.",
+            "Deben expresar su independencia en comunicaciones y actividades; el proyecto deslinda responsabilidad del club por sus actos, incluso si están reconocidas.",
+            "El incumplimiento de la reglamentación puede llevar a perder el reconocimiento por decisión de la Directiva."
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "remanente-alberdi",
+      "titulo": "Destino de bienes en una eventual disolución",
+      "estatutoVigente": {
+        "resumen": "Según el anexo, el remanente se reparte entre Hospital de Niños, Hospital Tránsito Cáceres de Allende y escuelas de las sierras de Córdoba.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Luego de cancelar pasivos, los fondos y bienes remanentes se destinan a entidades de bien público con sede en Barrio Alberdi, elegidas por la Comisión Liquidadora.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Los destinatarios nominados son reemplazados por un criterio territorial y una decisión de la Comisión Liquidadora.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Mantener el remanente patrimonial en el barrio de origen.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Es una regla para el supuesto de disolución, no una distribución prevista para la actividad ordinaria."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            101
+          ],
+          "paginas": [
+            29,
+            30
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            17
+          ],
+          "articulosVigentesMencionados": [
+            11
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "disolucion",
+      "titulo": "Condiciones y Comisión Liquidadora",
+      "estatutoVigente": {
+        "resumen": "El anexo describe una Comisión Liquidadora de cinco socios mayores de treinta años y con diez años de antigüedad.",
+        "procedencia": "anexo_comparativo",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "Solo una Asamblea Extraordinaria convocada especialmente puede resolver la disolución, y no procede si al menos treinta socios se comprometen a sostener el club. Se designan cinco liquidadores, que pueden integrar la última Directiva o reunir edad y antigüedad previstas.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Se amplía el universo de liquidadores y se expresa una preferencia por abogados o contadores.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": "Aprovechar conocimiento institucional y formación técnica en la liquidación.",
+        "naturaleza": "objetivo_declarado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "La Comisión Fiscalizadora vigila y controla las operaciones de liquidación.",
+        "La preferencia profesional no está redactada como obligación absoluta."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            99,
+            100
+          ],
+          "paginas": [
+            29
+          ]
+        },
+        {
+          "documentoId": "anexo",
+          "paginas": [
+            18
+          ],
+          "articulosVigentesMencionados": [
+            10
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    },
+    {
+      "id": "vigencia-transicion",
+      "titulo": "Cuándo se aplicarían las reglas",
+      "estatutoVigente": {
+        "resumen": null,
+        "procedencia": "sin_comparacion_documentada",
+        "verificadoConTextoVigenteCompleto": false
+      },
+      "propuesta": {
+        "resumen": "El art. 106 dispone entrada en vigor desde la aprobación por Asamblea Extraordinaria, con excepciones transitorias para elecciones y renovación.",
+        "procedencia": "proyecto_articulado"
+      },
+      "queCambia": {
+        "texto": "Las reglas no comienzan todas del mismo modo: hay protección de vitalicios actuales, reempadronamiento automático y disposiciones electorales específicas.",
+        "naturaleza": "sintesis_editorial"
+      },
+      "queBuscaElClub": {
+        "texto": null,
+        "naturaleza": "no_identificado_en_anexo",
+        "esBeneficioGarantizado": false
+      },
+      "detalles": [
+        "Regla general: días corridos salvo disposición expresa; vencimientos inhábiles pasan al día hábil siguiente.",
+        "Reempadronamiento sin trámite y conservación de derechos de quienes ya son vitalicios.",
+        "Composición y duración de órganos desde los primeros comicios bajo el estatuto nuevo.",
+        "Mandatos anteriores no se computan a efectos del art. 47.",
+        "La renovación del 25% se exige desde la elección siguiente a la primera bajo el estatuto nuevo.",
+        "Se faculta a la Directiva a modificaciones de forma y adecuaciones técnicas requeridas para inscripción, sin nueva aprobación asamblearia.",
+        "No se ha verificado fecha efectiva de aprobación, inscripción ni calendario de votación. La interfaz debe seguir hablando de propuesta."
+      ],
+      "notasRevision": [],
+      "fuentes": [
+        {
+          "documentoId": "proyecto",
+          "articulos": [
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112
+          ],
+          "paginas": [
+            31,
+            32
+          ]
+        }
+      ],
+      "estadoRevision": "cotejado_con_documentos_aportados",
+      "requiereRevisionHumanaAntesDePublicar": true
+    }
+  ]
+}

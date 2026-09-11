@@ -1,0 +1,214 @@
+/* ── Reset & Base ────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Brand */
+  --brand: #6CACE4;
+  --brand-dark: #174A73;
+
+  /* Surfaces */
+  --bg: #F5F8FC;
+  --surface: #FFFFFF;
+  --text-primary: #142235;
+  --text-secondary: #475569;
+  --border: #DCE5EE;
+
+  /* Semantic — light */
+  --surface-elevated: #FFFFFF;
+  --surface-muted: #F1F5F9;
+  --text-on-brand: #142235;
+  --focus-ring: #6CACE4;
+  --disabled-bg: #E2E8F0;
+  --disabled-text: #94A3B8;
+  --selection-bg: rgba(108, 172, 228, 0.3);
+  --selection-text: #142235;
+
+  /* Comparison cards */
+  --comparison-vigente-bg: #FFFFFF;
+  --comparison-vigente-border: #DCE5EE;
+  --comparison-propuesta-bg: rgba(108, 172, 228, 0.06);
+  --comparison-propuesta-border: rgba(108, 172, 228, 0.28);
+
+  /* Review */
+  --review-box-bg: rgba(108, 172, 228, 0.08);
+  --review-badge-cotejado-bg: rgba(108, 172, 228, 0.12);
+  --review-badge-cotejado-text: #174A73;
+  --review-badge-requiere-bg: rgba(245, 158, 11, 0.12);
+  --review-badge-requiere-text: #92400e;
+
+  /* Header subtitle */
+  --header-title-color: rgba(20, 34, 53, 0.75);
+
+  /* Header bg — brand blue */
+  --header-bg: var(--brand);
+
+  /* Card shadow */
+  --card-hover-shadow: 0 1px 4px rgba(108, 172, 228, 0.12);
+
+  /* Spacing — 4px base */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  /* Typography */
+  --font-sans: "Manrope", sans-serif;
+
+  /* Type scale */
+  --type-heading: 32px;
+  --type-screen: 26px;
+  --type-card-title: 18px;
+  --type-body: 16px;
+  --type-label: 13px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  color-scheme: light;
+}
+
+/* ── Dark mode ──────────────────────────────────────────────── */
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --bg: #0F1724;
+  --surface: #1A2536;
+  --text-primary: #E8EDF4;
+  --text-secondary: #94A3B8;
+  --border: #2D3B50;
+
+  /* Semantic — dark */
+  --surface-elevated: #1E2D42;
+  --surface-muted: #162032;
+  --text-on-brand: #FFFFFF;
+  --focus-ring: #6CACE4;
+  --disabled-bg: #2D3B50;
+  --disabled-text: #64748B;
+  --selection-bg: rgba(108, 172, 228, 0.25);
+  --selection-text: #E8EDF4;
+
+  /* Comparison cards */
+  --comparison-vigente-bg: #1A2536;
+  --comparison-vigente-border: #2D3B50;
+  --comparison-propuesta-bg: rgba(108, 172, 228, 0.08);
+  --comparison-propuesta-border: rgba(108, 172, 228, 0.32);
+
+  /* Review */
+  --review-box-bg: rgba(108, 172, 228, 0.10);
+  --review-badge-cotejado-bg: rgba(108, 172, 228, 0.18);
+  --review-badge-cotejado-text: #93C5FD;
+  --review-badge-requiere-bg: rgba(245, 158, 11, 0.18);
+  --review-badge-requiere-text: #FCD34D;
+
+  /* Header subtitle — pure white for ≥4.5:1 on header bg */
+  --header-title-color: #FFFFFF;
+
+  /* Header bg — deepened celeste for ≥4.5:1 white text contrast */
+  --header-bg: #3270A5;
+
+  /* Section/card labels — lighter brand-dark for dark surfaces */
+  --brand-dark: #5BA3D9;
+
+  /* Card shadow — subtle on dark */
+  --card-hover-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+
+  /* Scrollbar */
+  --scrollbar-thumb: #2D3B50;
+  --scrollbar-thumb-hover: #94A3B8;
+}
+
+/* Dark-mode toggle button: dark translucent bg so white icon reaches ≥4.5:1 */
+[data-theme="dark"] .theme-toggle {
+  background: rgba(0, 0, 0, 0.12);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+[data-theme="dark"] .theme-toggle:hover {
+  background: rgba(0, 0, 0, 0.20);
+}
+[data-theme="dark"] .theme-toggle:active {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--selection-bg);
+  color: var(--selection-text);
+}
+
+/* ── Focus ───────────────────────────────────────────────────── */
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Suppress focus-visible on non-interactive elements (headings, labels).
+   Programmatic focus on tabIndex={-1} headings must never look like a
+   form field; only keyboard-navigated interactive controls get the ring. */
+[tabindex="-1"]:focus-visible {
+  outline: none;
+}
+
+/* ── Reduced motion ──────────────────────────────────────────── */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Scrollbar ───────────────────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb, var(--border));
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover, var(--text-secondary));
+}
