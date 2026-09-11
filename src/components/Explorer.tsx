@@ -8,7 +8,14 @@ import type { NavDirection } from "../hooks/useNavigation";
 interface ExplorerProps {
   topics: TopicSummary[];
   direction: NavDirection;
+  topicProgress: Record<string, TopicProgress>;
   onSelectTopic: (topicId: string) => void;
+}
+
+interface TopicProgress {
+  total: number;
+  read: number;
+  doubts: number;
 }
 
 function ChevronRight() {
@@ -32,7 +39,12 @@ function ChevronRight() {
   );
 }
 
-export function Explorer({ topics, direction, onSelectTopic }: ExplorerProps) {
+export function Explorer({
+  topics,
+  direction,
+  topicProgress,
+  onSelectTopic,
+}: ExplorerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const reduced = useReducedMotion();
@@ -137,29 +149,47 @@ export function Explorer({ topics, direction, onSelectTopic }: ExplorerProps) {
         <p className="explorer__prompt">¿Qué te interesa conocer?</p>
 
         <div className="explorer__grid" role="list">
-          {topics.map((topic) => (
-            <button
-              key={topic.id}
-              className="card"
-              role="listitem"
-              onClick={() => onSelectTopic(topic.id)}
-              type="button"
-              onPointerDown={handlePointerDown}
-              onPointerUp={handlePointerUp}
-              onPointerLeave={handlePointerUp}
-              onKeyDown={handleKeyDown}
-              onKeyUp={handleKeyUp}
-            >
-              <span className="card__number" aria-hidden="true">
-                {topic.icon}
-              </span>
-              <div className="card__body">
-                <h3 className="card__title">{topic.title}</h3>
-                <p className="card__phrase">{topic.phrase}</p>
-              </div>
-              <ChevronRight />
-            </button>
-          ))}
+          {topics.map((topic) => {
+            const progress = topicProgress[topic.id] ?? { total: 0, read: 0, doubts: 0 };
+            const isComplete = progress.total > 0 && progress.read === progress.total;
+
+            return (
+              <button
+                key={topic.id}
+                className="card"
+                role="listitem"
+                onClick={() => onSelectTopic(topic.id)}
+                type="button"
+                onPointerDown={handlePointerDown}
+                onPointerUp={handlePointerUp}
+                onPointerLeave={handlePointerUp}
+                onKeyDown={handleKeyDown}
+                onKeyUp={handleKeyUp}
+              >
+                <span className="card__number" aria-hidden="true">
+                  {topic.icon}
+                </span>
+                <div className="card__body">
+                  <h3 className="card__title">{topic.title}</h3>
+                  <p className="card__phrase">{topic.phrase}</p>
+                  <div
+                    className="card__progress"
+                    aria-label={`${progress.read} de ${progress.total} puntos vistos${progress.doubts > 0 ? `, ${progress.doubts} con dudas` : ""}`}
+                  >
+                    <span className={`card__progress-main${isComplete ? " card__progress-main--complete" : ""}`}>
+                      {isComplete ? "✓ Todos vistos" : `${progress.read} de ${progress.total} vistos`}
+                    </span>
+                    {progress.doubts > 0 && (
+                      <span className="card__progress-doubts">
+                        ({progress.doubts} {progress.doubts === 1 ? "duda" : "dudas"})
+                      </span>
+                    )}
+                  </div>
+                </div>
+                <ChevronRight />
+              </button>
+            );
+          })}
         </div>
 
         <span className="explorer__tag">

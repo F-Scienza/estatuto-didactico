@@ -11,13 +11,13 @@
 :root {
   /* Brand */
   --brand: #6CACE4;
-  --brand-dark: #174A73;
+  --brand-dark: #6CACE4;
 
   /* Surfaces */
   --bg: #F5F8FC;
   --surface: #FFFFFF;
   --text-primary: #142235;
-  --text-secondary: #475569;
+  --text-secondary: #59616b;
   --border: #DCE5EE;
 
   /* Semantic — light */
@@ -39,7 +39,7 @@
   /* Review */
   --review-box-bg: rgba(108, 172, 228, 0.08);
   --review-badge-cotejado-bg: rgba(108, 172, 228, 0.12);
-  --review-badge-cotejado-text: #174A73;
+  --review-badge-cotejado-text: #2686d4;
   --review-badge-requiere-bg: rgba(245, 158, 11, 0.12);
   --review-badge-requiere-text: #92400e;
 
@@ -120,7 +120,7 @@
   --header-title-color: #FFFFFF;
 
   /* Header bg — deepened celeste for ≥4.5:1 white text contrast */
-  --header-bg: #3270A5;
+  --header-bg: #1b77c8;
 
   /* Section/card labels — lighter brand-dark for dark surfaces */
   --brand-dark: #5BA3D9;

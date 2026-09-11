@@ -10,6 +10,8 @@ interface TopicDetailProps {
   direction: NavDirection;
   onBack: () => void;
   onSelectChange: (changeId: string) => void;
+  readItems: Set<string>;
+  doubtItems: Set<string>;
 }
 
 function ChevronRight() {
@@ -38,6 +40,8 @@ export function TopicDetailView({
   direction,
   onBack,
   onSelectChange,
+  readItems,
+  doubtItems,
 }: TopicDetailProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -172,7 +176,25 @@ export function TopicDetailView({
                 onKeyUp={handleItemKeyUp}
               >
                 <span className="topic__item-label">{change.subtitle}</span>
-                <ChevronRight />
+                {doubtItems.has(change.id) ? (
+                  <span
+                    className="topic__item-status topic__item-status--doubt"
+                    aria-label="Marcado con dudas"
+                    title="Tengo dudas"
+                  >
+                    ?
+                  </span>
+                ) : readItems.has(change.id) ? (
+                  <span
+                    className="topic__item-status topic__item-status--read"
+                    aria-label="Leído"
+                    title="Leído"
+                  >
+                    ✓
+                  </span>
+                ) : (
+                  <ChevronRight />
+                )}
               </button>
             </li>
           ))}

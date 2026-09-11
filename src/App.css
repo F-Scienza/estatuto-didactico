@@ -119,6 +119,65 @@
   line-height: 1.5;
 }
 
+.app__footer p {
+  margin: 0;
+}
+
+.app__footer .app__source-note {
+  margin-top: var(--space-sm);
+}
+
+.app__source-note a {
+  color: inherit;
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.app__source-note a:hover {
+  color: var(--text-primary);
+}
+
+.app__source-note a:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+.app__donation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-top: var(--space-lg);
+  font-size: inherit;
+}
+
+.app__donation a {
+  display: inline-flex;
+  border-radius: var(--radius-sm);
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+
+.app__donation a:hover {
+  transform: translateY(-2px);
+}
+
+.app__donation a:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+.app__donation img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app__donation a {
+    transition: none;
+  }
+}
+
 /* ───────────────────────────────────────────────────────────────
    Explorer (home page)
    ─────────────────────────────────────────────────────────────── */
@@ -236,6 +295,31 @@
   font-size: var(--type-body);
   font-weight: 400;
   color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.card__progress {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-top: var(--space-sm);
+}
+
+.card__progress-main {
+  color: #2686d4;
+  font-size: var(--type-label);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.card__progress-main--complete {
+  color: #6cace4;
+}
+
+.card__progress-doubts {
+  color: var(--text-secondary);
+  font-size: var(--type-label);
+  font-weight: 400;
   line-height: 1.4;
 }
 
@@ -358,6 +442,33 @@
   flex: 1;
 }
 
+.topic__item-status {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-left: var(--space-lg);
+  flex-shrink: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-muted);
+  font-family: var(--font-sans);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.topic__item-status--read {
+  color: #6cace4;
+  border-color: rgba(108, 172, 228, 0.4);
+  background: rgba(108, 172, 228, 0.1);
+}
+
+.topic__item-status--doubt {
+  color: var(--text-secondary);
+}
+
 .topic__item-arrow {
   flex-shrink: 0;
   color: var(--text-secondary);
@@ -417,6 +528,42 @@
   padding-bottom: var(--space-xl);
   border-bottom: 1px solid var(--border);
   margin-bottom: var(--space-xl);
+}
+
+.detail__doubt-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  min-height: 44px;
+  margin: calc(var(--space-md) * -1) 0 var(--space-xl);
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: var(--type-label);
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.detail__doubt-toggle:hover,
+.detail__doubt-toggle--active {
+  border-color: var(--text-secondary);
+  background: var(--surface-muted);
+}
+
+.detail__doubt-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 1;
 }
 
 /* ── Comparison cards (stack mobile, 2-col desktop) ──────────── */

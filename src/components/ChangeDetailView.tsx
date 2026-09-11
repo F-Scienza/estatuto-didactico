@@ -11,6 +11,8 @@ interface ChangeDetailViewProps {
   integration: ReformaIntegracion;
   direction: NavDirection;
   onBack: () => void;
+  hasDoubt: boolean;
+  onToggleDoubt: () => void;
 }
 
 function formatSource(f: ReformaFuente): string {
@@ -46,6 +48,8 @@ export function ChangeDetailView({
   integration,
   direction,
   onBack,
+  hasDoubt,
+  onToggleDoubt,
 }: ChangeDetailViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
@@ -128,6 +132,16 @@ export function ChangeDetailView({
         >
           {change.subtitle}
         </h2>
+
+        <button
+          className={`detail__doubt-toggle${hasDoubt ? " detail__doubt-toggle--active" : ""}`}
+          type="button"
+          aria-pressed={hasDoubt}
+          onClick={onToggleDoubt}
+        >
+          <span className="detail__doubt-icon" aria-hidden="true">?</span>
+          {hasDoubt ? "Duda registrada" : "Tengo dudas"}
+        </button>
 
         {/* Comparison cards: stack mobile, 2-col desktop */}
         <div className="detail__comparison">
