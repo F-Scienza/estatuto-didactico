@@ -530,12 +530,20 @@
   margin-bottom: var(--space-xl);
 }
 
-.detail__doubt-toggle {
+.detail__actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin: calc(var(--space-md) * -1) 0 var(--space-xl);
+}
+
+.detail__doubt-toggle,
+.detail__share {
   display: inline-flex;
   align-items: center;
   gap: var(--space-sm);
   min-height: 44px;
-  margin: calc(var(--space-md) * -1) 0 var(--space-xl);
   padding: 8px 14px;
   border: 1px solid var(--border);
   border-radius: var(--radius-md);
@@ -549,9 +557,27 @@
 }
 
 .detail__doubt-toggle:hover,
-.detail__doubt-toggle--active {
+.detail__doubt-toggle--active,
+.detail__share:hover {
   border-color: var(--text-secondary);
   background: var(--surface-muted);
+}
+
+.detail__share {
+  color: var(--brand-dark);
+}
+
+.detail__doubt-toggle:focus-visible,
+.detail__share:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.detail__share-status {
+  flex-basis: 100%;
+  min-height: 1.25rem;
+  color: var(--text-secondary);
+  font-size: 13px;
 }
 
 .detail__doubt-icon {

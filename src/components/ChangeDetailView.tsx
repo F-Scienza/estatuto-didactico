@@ -1,9 +1,10 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import type { ChangeItem, ReformaIntegracion, ReformaFuente } from "../types";
 import { useReducedMotion } from "../hooks/useReducedMotion";
 import type { NavDirection } from "../hooks/useNavigation";
+import { shareComparison } from "../utils/shareComparison";
 
 interface ChangeDetailViewProps {
   change: ChangeItem;
@@ -54,6 +55,7 @@ export function ChangeDetailView({
   const containerRef = useRef<HTMLDivElement>(null);
   const headingRef = useRef<HTMLHeadingElement>(null);
   const reduced = useReducedMotion();
+  const [shareStatus, setShareStatus] = useState<string>("");
 
   useEffect(() => {
     headingRef.current?.focus();
@@ -98,6 +100,23 @@ export function ChangeDetailView({
   const hasReviewNotes = change.reviewNotes.length > 0;
   const hasSources = change.sources.length > 0;
 
+  const handleShare = async () => {
+    setShareStatus("");
+    try {
+      const result = await shareComparison({
+        title: change.subtitle,
+        currentLabel: integration.etiquetaVigente,
+        currentText: change.currentStatute,
+        proposalLabel: integration.etiquetaPropuesta,
+        proposalText: change.proposal,
+      });
+      setShareStatus(result === "shared" ? "Contenido compartido" : "Imagen descargada");
+    } catch (error) {
+      if (error instanceof DOMException && error.name === "AbortError") return;
+      setShareStatus("No se pudo compartir. Intentá nuevamente.");
+    }
+  };
+
   return (
     <div className="app__shell">
       <section className="detail" aria-label={change.subtitle} ref={containerRef}>
@@ -133,15 +152,26 @@ export function ChangeDetailView({
           {change.subtitle}
         </h2>
 
-        <button
-          className={`detail__doubt-toggle${hasDoubt ? " detail__doubt-toggle--active" : ""}`}
-          type="button"
-          aria-pressed={hasDoubt}
-          onClick={onToggleDoubt}
-        >
-          <span className="detail__doubt-icon" aria-hidden="true">?</span>
-          {hasDoubt ? "Duda registrada" : "Tengo dudas"}
-        </button>
+        <div className="detail__actions">
+          <button
+            className={`detail__doubt-toggle${hasDoubt ? " detail__doubt-toggle--active" : ""}`}
+            type="button"
+            aria-pressed={hasDoubt}
+            onClick={onToggleDoubt}
+          >
+            <span className="detail__doubt-icon" aria-hidden="true">?</span>
+            {hasDoubt ? "Duda registrada" : "Tengo dudas"}
+          </button>
+          <button className="detail__share" type="button" onClick={handleShare}>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 16V3m0 0L7 8m5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            Compartir
+          </button>
+          <span className="detail__share-status" role="status" aria-live="polite">
+            {shareStatus}
+          </span>
+        </div>
 
         {/* Comparison cards: stack mobile, 2-col desktop */}
         <div className="detail__comparison">
